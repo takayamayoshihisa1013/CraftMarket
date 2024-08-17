@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header {
+    width: 90%;
+    display: flex;
+    height: 7vh;
+    padding: 1.5vh 5%;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+
+header .logo {
+    width: 15vw;
+    height: 100%;
+}
+
+header .logo h1 {
+    line-height: 7vh;
+}
+
+header nav {
+    width: 40%;
+    line-height: 7vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav form {
+    width: 55%;
+    display: flex;
+    height: 4vh;
+    margin-top: 1.5vh;
+
+}
+
+header nav form input {
+    display:block;
+    height: 3vh;
+    width: 83%;
+    padding: 0.5vh 1%;
+    border-radius: 10px;
+}
+
+header nav form button {
+    width: 15%;
+    display: flex;
+    align-items: center;  /* 縦方向の中央揃え */
+    justify-content: center;  /* 横方向の中央揃え */
+    height: 4.5vh;  /* ボタンの高さを設定 */
+    padding: 0 1%;  /* 横方向のみパディングを設定 */
+    line-height: normal;  /* line-heightをリセット */
+    text-align: center;  /* テキストを中央揃え */
+    border-radius: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+}
+
+
+
+header nav p {
+    display: block;
+    height: 7vh;
+    width: 15%;
+    font-size: 1.0vw;
+    text-align: center;
+}
+
+header nav p  a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.slider_section {
+    height: 48vh;
+    width: 100%;
+    padding-top: 2vh;
+    background-color: #f5f5f5;
+
+}
+
+.slider { 
+    width: 100%;
+    height: 100%;
+}
+
+.slider .slick-slide {
+    height: 45vh!important;
+    width: 18vw!important;
+    margin: 0 1vw!important;
+    /* box-shadow: 0 4px 6px #a9a9a9; */
+    border-radius: 10px;
+    background-color: #FFFF;
+    /* border: 1px solid; */
+}
+
+.slider .slick-track {
+    height: 45vh;
+}
+
+/* 矢印の大きさ */
+/* .slick-arrow{
+    z-index:2!important;width:60px!important;height:60px!important;
+} */
+
+/* 矢印の位置 */
+/* .slick-next{
+    right:-30px!important;
+} */
+
+/* .slick-prev{
+    left:-30px!important;
+} */
+
+.slider .div_img {
+    height: 30vh;
+    /* width: 20%; */
+    margin-top: 10px;
+}
+
+.slider .product {
+    
+}
+
+.slider div img {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.slider .description {
+    height: 15vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.slider .description h1 {
+    font-size: 1.1vw;
+    line-height: 3vh;
+}
+
+.product_name {
+    font-size: 1vw;
+}
+
+.price {
+    color: red;
+}
+
+.user_name {
+    font-size: 0.9vw;
+    font-weight: 100;
+}
+
+.category {
+    height: 100vh;
+}
